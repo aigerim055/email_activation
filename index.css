@@ -41,7 +41,7 @@ span {
 
 .second_section {
     margin-top: 20px;
-    
+    position: relative;
 }
 
 .second_section h4 {
@@ -89,20 +89,21 @@ footer .container p {
 
 .second_section img {
     position: absolute;
-    z-index: -1px;
+    /* z-index: -1px; */
     top: -23px;
-    right: 445px;
+    right: 269px;
     height: 67px;
 
 }
 
-.second_section {
+.second_section .container {
     position: relative;
 }
 
+
 .green_block {
     position: absolute;
-    left: 200px;
+    left: 16px;
     top: -30px;
     transform: rotate(-10deg);
     padding: 15px 25px 15px 20px;
